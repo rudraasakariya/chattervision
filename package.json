@@ -1,0 +1,11 @@
+{
+  "name": "chattervision",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:backend": "pnpm --filter backend dev",
+    "dev:ai": "pnpm --filter ai-service dev",
+    "dev:all": "pnpm -r --parallel --filter frontend --filter backend dev"
+  }
+}

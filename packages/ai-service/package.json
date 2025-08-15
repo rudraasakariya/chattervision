@@ -1,0 +1,8 @@
+{
+  "name": "ai-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "uv run uvicorn main:app --port ${PORT:-8000} --reload"
+  }
+}

@@ -1,0 +1,28 @@
+# Node
+node_modules
+pnpm-debug.log*
+yarn.lock
+package-lock.json
+
+# Next.js
+.next
+out
+
+# TypeScript
+dist
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.venv
+uv.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+!*.example
